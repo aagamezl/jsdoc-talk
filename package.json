@@ -1,0 +1,26 @@
+{
+  "name": "jsdoc-project",
+  "version": "1.0.0",
+  "description": "```bash",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:types": "tsc -p tsconfig.build.types.json",
+    "check:types": "tsc",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "standard": {
+    "includes": [
+      "test"
+    ]
+  },
+  "keywords": [],
+  "author": "Álvaro José Agámez Licha",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "standard": "^17.1.0",
+    "typescript": "^5.3.3"
+  }
+}
